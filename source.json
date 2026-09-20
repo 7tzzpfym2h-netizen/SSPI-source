@@ -1,0 +1,10 @@
+{
+  "id": "superpsx-scraper",
+  "name": "SuperPSX PS4 Repo",
+  "version": "1.0.0",
+  "description": "Scrapes PS4 packages directly from SuperPSX",
+  "type": "recipe",
+  "host_permissions": [
+    "https://www.superpsx.com/*"
+  ]
+}
