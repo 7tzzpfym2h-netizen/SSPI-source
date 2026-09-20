@@ -1,0 +1,16 @@
+{
+  "search": {
+    "endpoint": "https://7tzzpfym2h-netizen.github.io/SSPI-source/ps4_games_with_downloads.json",
+    "method": "GET",
+    "response": {
+      "root": "$",
+      "fields": {
+        "title": "title",
+        "title_id": "cusa",
+        "version": "version",
+        "url": "download_url",
+        "size": "size"
+      }
+    }
+  }
+}
