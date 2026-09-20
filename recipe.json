@@ -1,0 +1,15 @@
+{
+  "baseUrl": "https://www.superpsx.com",
+  "search": {
+    "endpoint": "/category/ps4/ps4-games-free/page/{page}/",
+    "itemSelector": "article.post",
+    "titleSelector": "h2.entry-title a, h1.entry-title",
+    "urlSelector": "h2.entry-title a",
+    "coverSelector": ".post-thumbnail img"
+  },
+  "resolve": {
+    "linkSelector": ".entry-content a[href*='1fichier'], .entry-content a[href*='mediafire'], .entry-content a[href*='mega'], .entry-content a[href*='zippyshare']",
+    "urlAttribute": "href",
+    "supportedExtensions": [".pkg"]
+  }
+}
